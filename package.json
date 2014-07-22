@@ -1,0 +1,24 @@
+{
+  "name": "karma-jasmine-matchers",
+  "version": "0.1.0",
+  "description": "A Karma plugin - adapter for Jasmine Matchers.",
+  "author": "Jamie Mason <siunmaru@gmail.com>",
+  "main": "index.js",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamieMason/karma-jasmine-matchers.git"
+  },
+  "keywords": [
+    "karma-plugin",
+    "karma-adapter",
+    "jasmine",
+    "jasmine-matchers"
+  ],
+  "devDependencies": {
+    "jasmine-expect": "^1.21.0"
+  },
+  "peerDependencies": {
+    "karma": ">=0.9"
+  }
+}
