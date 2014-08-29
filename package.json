@@ -1,6 +1,6 @@
 {
   "name": "karma-jasmine-matchers",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "A Karma plugin - adapter for Jasmine Matchers.",
   "author": "Jamie Mason <siunmaru@gmail.com>",
   "main": "index.js",
