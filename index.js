@@ -24,7 +24,7 @@
      * @return {Boolean}
      */
     function isJasmine(file) {
-      return file.pattern.indexOf('karma-jasmine/lib/adapter.js') !== -1;
+      return file.pattern.search(/karma\-jasmine(\/|\\)lib(\/|\\)adapter\.js/) !== -1;
     }
 
     /**
