@@ -98,6 +98,12 @@ module.exports = function(config) {
             'src/**/*.spec.js'
         ]
     });
+    // Also you must add it as a plugin
+    plugins: [
+      // ...
+      'karma-jasmine',
+      'karma-jasmine-matchers'
+    ],
 };
 ```
 
