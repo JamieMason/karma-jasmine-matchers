@@ -87,7 +87,7 @@ npm install karma-jasmine-matchers --save-dev
 
 ### Karma
 
-Just include `'jasmine-matchers'` in the `frameworks` section of your config.
+Just include `'jasmine-matchers'` in the `frameworks` and `'karma-jasmine-matchers'`in the plugins section of your config
 
 ```javascript
 module.exports = function(config) {
@@ -95,6 +95,10 @@ module.exports = function(config) {
         frameworks: [
             'jasmine',
             'jasmine-matchers'
+        ],
+        plugins: [
+            'karma-jasmine',
+            'karma-jasmine-matchers'
         ],
         files: [
             'src/**/*.js',
