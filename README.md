@@ -96,6 +96,10 @@ module.exports = function(config) {
             'jasmine',
             'jasmine-matchers'
         ],
+        plugins: [
+            'karma-jasmine',
+            'karma-jasmine-matchers'
+        ],
         files: [
             'src/**/*.js',
             'src/**/*.spec.js'
