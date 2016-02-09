@@ -1,27 +1,37 @@
 {
   "name": "karma-jasmine-matchers",
-  "version": "2.0.1",
   "description": "A Karma plugin - Additional matchers for the Jasmine BDD JavaScript testing library.",
-  "author": "Jamie Mason <siunmaru@gmail.com>",
-  "main": "index.js",
-  "license": "MIT",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:JamieMason/karma-jasmine-matchers.git"
+  "version": "2.0.1",
+  "author": "Jamie Mason (https://github.com/JamieMason)",
+  "bugs": {
+    "url": "https://github.com/JamieMason/karma-jasmine-matchers/issues"
   },
+  "contributors": [
+    "Alex Ewerlöf (https://github.com/userpixel)",
+    "Alexander Afanasiev (https://github.com/alecxe)",
+    "Robert Stoll (https://github.com/robstoll)"
+  ],
+  "dependencies": {
+    "jasmine-expect": "2.0.1"
+  },
+  "homepage": "https://github.com/JamieMason/karma-jasmine-matchers",
   "keywords": [
     "BDD",
     "TDD",
+    "jasmine",
     "jasmine",
     "jasmine-matchers",
     "karma-adapter",
     "karma-plugin",
     "testing"
   ],
-  "dependencies": {
-    "jasmine-expect": "2.0.1"
-  },
+  "license": "MIT",
+  "main": "index.js",
   "peerDependencies": {
     "karma": ">=0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:JamieMason/karma-jasmine-matchers.git"
   }
 }
