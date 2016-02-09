@@ -106,6 +106,12 @@ module.exports = function(config) {
             'karma-jasmine-matchers'
         ]
     });
+    // Also you must add it as a plugin
+    plugins: [
+      // ...
+      'karma-jasmine',
+      'karma-jasmine-matchers'
+    ],
 };
 ```
 
