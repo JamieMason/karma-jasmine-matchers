@@ -1,7 +1,7 @@
 {
   "name": "karma-jasmine-matchers",
   "description": "A Karma plugin - Additional matchers for the Jasmine BDD JavaScript testing library.",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "author": "Jamie Mason (https://github.com/JamieMason)",
   "bugs": {
     "url": "https://github.com/JamieMason/karma-jasmine-matchers/issues"
@@ -12,7 +12,7 @@
     "Robert Stoll (https://github.com/robstoll)"
   ],
   "dependencies": {
-    "jasmine-expect": "2.0.1"
+    "jasmine-expect": "2.0.2"
   },
   "homepage": "https://github.com/JamieMason/karma-jasmine-matchers",
   "keywords": [
