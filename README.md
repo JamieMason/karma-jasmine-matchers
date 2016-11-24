@@ -7,6 +7,7 @@
 [![Follow @fold_left on Twitter](https://img.shields.io/twitter/follow/fold_left.svg?style=social)](https://twitter.com/fold_left)
 [![GitHub stars](https://img.shields.io/github/stars/JamieMason/karma-jasmine-matchers.svg?style=social&label=Star)](https://github.com/JamieMason/karma-jasmine-matchers)
 [![GitHub followers](https://img.shields.io/github/followers/JamieMason.svg?style=social&label=Follow)](https://github.com/JamieMason)
+[![Analytics](https://ga-beacon.appspot.com/UA-45466560-5/karma-jasmine-matchers?flat&useReferer)](https://github.com/igrigorik/ga-beacon)
 
 A [Karma](http://karma-runner.github.io/) plugin to inject [Jasmine-Matchers](https://github.com/JamieMason/Jasmine-Matchers) for [Jasmine](http://jasmine.github.io/).
 
