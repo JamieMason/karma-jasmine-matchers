@@ -25,6 +25,8 @@ A [Karma](http://karma-runner.github.io/) plugin to inject [Jasmine-Matchers](ht
 npm install karma-jasmine-matchers --save-dev
 ```
 
+If you are using TypeScript, you might want to `npm install @types/jasmine-matchers --save-dev` in order to prevent your IDE from complaining about the new Matchers.
+
 ## Matchers
 
 See the following links for a full list of [Matchers](https://github.com/JamieMason/Jasmine-Matchers#matchers) and [Asymmetric Matchers](https://github.com/JamieMason/Jasmine-Matchers#asymmetric-matchers) provided.
