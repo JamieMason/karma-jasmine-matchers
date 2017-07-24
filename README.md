@@ -43,9 +43,6 @@ simply stating that you `expect(cycleWheels).toBeEvenNumber()`.
 npm install karma-jasmine-matchers --save-dev
 ```
 
-If you are using TypeScript, you might want to `npm install @types/jasmine-matchers --save-dev` in order to prevent your
-IDE from complaining about the new Matchers.
-
 ## Matchers
 
 See the following links for a full list of [Matchers](https://github.com/JamieMason/Jasmine-Matchers#matchers) and
@@ -65,4 +62,29 @@ module.exports = function(config) {
     plugins: ['karma-jasmine', 'karma-jasmine-matchers']
   });
 };
+```
+
+## TypeScript and Angular CLI projects
+
+If you are using TypeScript, you might want to `npm install @types/jasmine-expect --save-dev` in order to prevent your
+IDE from complaining about the new Matchers.
+
+Also, if you run into TypeScript compilation errors when running your tests, add `"jasmine-expect"` to the `"types"`
+array in your tests' `tsconfig` file.
+
+As an example, for an Angular CLI based project, this would be your `tsconfig.spec.json` file:
+
+```json
+{
+  "extends": "../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/spec",
+    "baseUrl": "./",
+    "module": "commonjs",
+    "target": "es5",
+    "types": ["jasmine", "node", "jasmine-expect"]
+  },
+  "files": ["test.ts"],
+  "include": ["**/*.spec.ts", "**/*.d.ts"]
+}
 ```
