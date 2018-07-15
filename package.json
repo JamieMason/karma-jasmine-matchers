@@ -3,12 +3,11 @@
   "description": "A Karma plugin - Additional matchers for the Jasmine BDD JavaScript testing library.",
   "version": "3.8.3",
   "author": "Jamie Mason (https://github.com/JamieMason)",
-  "bugs": {
-    "url": "https://github.com/JamieMason/karma-jasmine-matchers/issues"
-  },
+  "bugs": "https://github.com/JamieMason/karma-jasmine-matchers/issues",
   "contributors": [
     "Alex Ewerlöf (https://github.com/userpixel)",
     "Alexander Afanasiev (https://github.com/alecxe)",
+    "Cornelius Schmale (https://github.com/readme42)",
     "David Guijarro (https://github.com/davguij)",
     "Robert Stoll (https://github.com/robstoll)"
   ],
@@ -27,9 +26,5 @@
     "testing"
   ],
   "license": "MIT",
-  "main": "index.js",
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:JamieMason/karma-jasmine-matchers.git"
-  }
+  "main": "index.js"
 }
