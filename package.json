@@ -12,7 +12,7 @@
     "Robert Stoll (https://github.com/robstoll)"
   ],
   "dependencies": {
-    "jasmine-expect": "4.0.1"
+    "jasmine-expect": "4.0.2"
   },
   "homepage": "https://github.com/JamieMason/karma-jasmine-matchers",
   "keywords": [

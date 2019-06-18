@@ -7,9 +7,9 @@ add-matchers@0.6.2:
   resolved "https://registry.yarnpkg.com/add-matchers/-/add-matchers-0.6.2.tgz#faeb2fa9380228c1b0da5f21a655c69304dd2011"
   integrity sha512-hVO2wodMei9RF00qe+506MoeJ/NEOdCMEkSJ12+fC3hx/5Z4zmhNiP92nJEF6XhmXokeB0hOtuQrjHCx2vmXrQ==
 
-jasmine-expect@4.0.1:
-  version "4.0.1"
-  resolved "https://registry.yarnpkg.com/jasmine-expect/-/jasmine-expect-4.0.1.tgz#48934ec5a3ba6b13dc0396eab8d4ddc336a0f7b3"
-  integrity sha512-tn+sdVx04MRHpW6ltIkEKANRO29C7AUdmkeupFrwbAawd8ICA/IZT9YsdIljGuxU+wLYoOJsaics6swnw2lO2g==
+jasmine-expect@4.0.2:
+  version "4.0.2"
+  resolved "https://registry.yarnpkg.com/jasmine-expect/-/jasmine-expect-4.0.2.tgz#a35bc1dd9e03504cfd73a5b0282ce73d103fc5c5"
+  integrity sha512-VpHLwpBE1chVIhiJ7kJHBbdsm2GVvBli5bem4pGqkbiuvIW2mxghPNhYrKyoHBQKVmlq+xLUTGlrWMC/Ovn+2g==
   dependencies:
     add-matchers "0.6.2"
