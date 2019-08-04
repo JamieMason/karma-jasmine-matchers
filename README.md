@@ -8,11 +8,6 @@
 [![NPM downloads](http://img.shields.io/npm/dm/karma-jasmine-matchers.svg?style=flat-square)](https://www.npmjs.com/package/karma-jasmine-matchers)
 [![Build Status](http://img.shields.io/travis/JamieMason/karma-jasmine-matchers/master.svg?style=flat-square)](https://travis-ci.org/JamieMason/karma-jasmine-matchers)
 [![Maintainability](https://api.codeclimate.com/v1/badges/0c6eb0444c813a15058d/maintainability)](https://codeclimate.com/github/JamieMason/karma-jasmine-matchers/maintainability)
-[![Gitter Chat](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/JamieMason/karma-jasmine-matchers)
-[![Donate via PayPal](https://img.shields.io/badge/donate-paypal-blue.svg)](https://www.paypal.me/foldleft)
-[![Backers](https://opencollective.com/fold_left/backers/badge.svg)](https://opencollective.com/fold_left#backer)
-[![Sponsors](https://opencollective.com/fold_left/sponsors/badge.svg)](https://opencollective.com/fold_left#sponsors)
-[![Analytics](https://ga-beacon.appspot.com/UA-45466560-5/karma-jasmine-matchers?flat&useReferer)](https://github.com/igrigorik/ga-beacon)
 [![Follow JamieMason on GitHub](https://img.shields.io/github/followers/JamieMason.svg?style=social&label=Follow)](https://github.com/JamieMason)
 [![Follow fold_left on Twitter](https://img.shields.io/twitter/follow/fold_left.svg?style=social&label=Follow)](https://twitter.com/fold_left)
 
@@ -40,18 +35,18 @@ simply stating that you `expect(cycleWheels).toBeEvenNumber()`.
 > Jasmine Matchers is written using the [add-matchers](https://github.com/JamieMason/add-matchers) library. If you have
 > some useful matchers of your own that you could share with other Jest and Jasmine users, please give it a try.
 
-## Installation
+## 🌩 Installation
 
 ```
 npm install karma-jasmine-matchers --save-dev
 ```
 
-## Matchers
+## 📝 API
 
 See the following links for a full list of [Matchers](https://github.com/JamieMason/Jasmine-Matchers#matchers) and
 [Asymmetric Matchers](https://github.com/JamieMason/Jasmine-Matchers#asymmetric-matchers) provided.
 
-## Integration
+## 🕹 Usage
 
 Just include `'jasmine-matchers'` in the `frameworks` and `'karma-jasmine-matchers'`in the plugins section of your
 config
@@ -67,7 +62,7 @@ module.exports = function(config) {
 };
 ```
 
-## TypeScript and Angular CLI projects
+### TypeScript and Angular CLI projects
 
 If you are using TypeScript, you might want to `npm install @types/jasmine-expect --save-dev` in order to prevent your
 IDE from complaining about the new Matchers.
@@ -91,3 +86,10 @@ As an example, for an Angular CLI based project, this would be your `tsconfig.sp
   "include": ["**/*.spec.ts", "**/*.d.ts"]
 }
 ```
+
+## 🙋🏾‍♀️ Getting Help
+
+- Get help with issues by creating a
+  [Bug Report](https://github.com/JamieMason/karma-jasmine-matchers/issues/new?template=bug_report.md).
+- Discuss ideas by opening a
+  [Feature Request](https://github.com/JamieMason/karma-jasmine-matchers/issues/new?template=feature_request.md).
