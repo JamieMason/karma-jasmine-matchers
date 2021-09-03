@@ -11,6 +11,10 @@
     "David Guijarro (https://github.com/davguij)",
     "Robert Stoll (https://github.com/robstoll)"
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JamieMason/karma-jasmine-matchers.git"
+  },
   "dependencies": {
     "jasmine-expect": "4.0.2"
   },
